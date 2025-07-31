@@ -1,0 +1,324 @@
+.movie-details {
+  max-width: 1200px;
+  margin: 40px auto;
+  background: rgba(30, 42, 58, 0.9);
+  backdrop-filter: blur(6px);
+  padding: 30px;
+  border-radius: 16px;
+  color: #e0e1dd;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: fadeIn 0.6s ease-in;
+ 
+}
+
+
+.movie-links {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.details-link {
+  color: #1b84ff;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.7rem;
+  transition: color 0.3s;
+}
+
+.details-link:hover {
+  color: #e0d315;
+  text-decoration: underline;
+}
+
+.genre-chip {
+  display: inline-block;
+  background-color: #e0e0e0;
+  color: #222;
+  padding: 6px 10px;
+  border-radius: 12px;
+  margin: 4px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.genre-chip:hover {
+  background-color: #c5c5c5;
+}
+
+
+.movie-details h1 {
+  font-size: 2rem;
+  color: #ffcc00;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.movie-info {
+  width: 100%;
+  max-width: 600px;
+}
+
+.trailer-button {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 10px 20px;
+  background-color: #1b84ff;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.trailer-button:hover {
+  background-color: #0059b3;
+}
+
+.movie-info p {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+  line-height: 1.6;
+}
+
+.movie-info p strong {
+  color: #7dd3fc;
+  font-weight: bold;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.dropdown-container {
+  position: relative;
+  display: inline-block;
+  margin: 1rem 0;
+}
+
+.dropdown-button {
+  font-size: 1.5rem;
+  background-color: #1b84ff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  background-color: #f0f0f0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  padding: 0.5rem;
+  border-radius: 8px;
+  z-index: 100;
+  top: 110%;
+  left: 0;
+  min-width: 180px;
+
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+/* Show menu when container is hovered or focused */
+.dropdown-container:hover .dropdown-menu,
+.dropdown-container:focus-within .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.dropdown-menu button {
+  display: block;
+  background: none;
+  border: none;
+  text-align: left;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  font-size: 0.95rem;
+  cursor: pointer;
+  color: #003366;
+  border-radius: 4px;
+}
+
+.dropdown-menu button:hover {
+  background-color: #d9e6ff;
+}
+
+
+
+.rate-section {
+  margin-top: 1.5rem;
+}
+
+.rate-btn {
+  font-size: 1.05rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #ffcc00;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #222;
+  transition: background-color 0.3s ease;
+}
+
+.rate-btn:hover {
+  background-color: #54d322;
+}
+
+
+.movie-info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem 2rem;
+  margin-top: 1.5rem;
+}
+
+.info-item {
+  background-color: #14d0e9;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.info-item strong {
+  display: block;
+  font-size: 1.4rem;
+  color: #444;
+  margin-bottom: 0.3rem;
+}
+
+.info-item p {
+  margin: 0;
+  font-size: 1.05rem;
+  color: #222;
+}
+.dropdown-button.remove {
+  background-color: #ff4c4c; /* red */
+}
+.dropdown-button.remove:hover {
+  background-color: #ff1a1a;
+}
+
+
+
+
+.movie-cast-container {
+  margin-top: 1rem;
+}
+
+.cast-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.cast-member {
+  width: 120px;
+  text-align: center;
+}
+
+.cast-photo {
+  width: 100px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.cast-name {
+  font-weight: bold;
+  margin: 0.5rem 0 0 0;
+  cursor: pointer;
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.cast-role {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+
+.movie-details-poster {
+  width: 100%;
+  max-width: 400px;
+  height: 600px;
+  border-radius: 12px;
+  margin-bottom: 24px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+  object-fit: contain;
+   
+    
+}
+
+.movie-details-poster:hover {
+  transform: scale(1.03);
+}
+
+.poster-trailer-container {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  flex-wrap: nowrap; /* no wrapping */
+  justify-content: flex-start; /* align left */
+  width: 100%;
+  max-width: 1100px; /* enough space to hold poster + trailer */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.poster-trailer-container img {
+  width: 280px; /* fixed width for poster */
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+  object-fit: contain;
+  flex-shrink: 0; /* prevent shrinking */
+}
+
+.poster-trailer-container iframe {
+  width: 760px; /* fixed width for trailer */
+  height: 315px; /* 16:9 ratio */
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+  border: none;
+  flex-shrink: 0; /* prevent shrinking */
+}
+
+@media (max-width: 900px) {
+  .poster-trailer-container {
+    max-width: 100%;
+    justify-content: center;
+  }
+  .poster-trailer-container img,
+  .poster-trailer-container iframe {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    flex-shrink: 1;
+  }
+  .poster-trailer-container {
+    flex-wrap: wrap; /* stack on smaller screens */
+  }
+}

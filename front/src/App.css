@@ -1,0 +1,166 @@
+/* Base Styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0d1b2a;
+  color: #e0e1dd;
+  min-height: 100vh;
+}
+
+/* App Container */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+header {
+  background-color: #1b263b;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-bottom: 3px solid #415a77;
+}
+
+.logo-container img {
+  height: 60px;
+}
+
+
+.main-nav a {
+  color: #e0e1dd;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.main-nav a:hover {
+  color: #ffcc00;
+}
+
+.header-right {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Search Box */
+.search-box {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.search-box input {
+  padding: 10px;
+  width: 300px;
+  border: none;
+  border-radius: 8px 0 0 8px;
+  font-size: 16px;
+   color: #000;
+}
+
+.search-box button {
+  padding: 10px 15px;
+  background-color: #1b84ff;
+  border: none;
+  border-radius: 0 8px 8px 0;
+  color: white;
+  cursor: pointer;
+}
+
+.search-box button:hover {
+  background-color: #0059b3;
+}
+
+/* Forms */
+.signup-form,
+.signin-form {
+  background-color: #1e2a3a;
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.signup-form h2,
+.signin-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffcc00;
+}
+
+.signup-form input,
+.signin-form input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: none;
+  font-size: 15px;
+  color: #000;
+}
+
+.signup-form button,
+.signin-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #1b84ff;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.signup-form button:hover,
+.signin-form button:hover {
+  background-color: #0059b3;
+}
+
+
+
+/* User Page */
+.user-page {
+  max-width: 400px;
+  margin: 40px auto;
+  background-color: #1e2a3a;
+  padding: 25px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.user-page button {
+  background-color: crimson;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background-color: #1b263b;
+  padding: 10px;
+  text-align: center;
+  margin-top: auto;
+  font-size: 14px;
+  color: #e0e1dd;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .main-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search-box input {
+    width: 70%;
+  }
+}

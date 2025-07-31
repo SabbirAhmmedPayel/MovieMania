@@ -1,0 +1,51 @@
+/* Rating section container */
+.rate-section {
+  margin-top: 1rem;
+}
+
+/* Star styles */
+.stars {
+  margin: 0.5rem 0;
+}
+
+.star {
+  font-size: 28px;
+  cursor: pointer;
+  color: #ccc; /* empty star color */
+  transition: color 0.2s ease;
+  user-select: none;
+  margin-right: 4px;
+}
+
+.star.filled {
+  color: rgb(233, 218, 7); /* filled star color */
+}
+
+
+/* Review textarea */
+.rate-inline-box textarea {
+  width: 100%;
+  min-height: 80px;
+  padding: 0.5rem;
+  font-size: 14px;
+  resize: vertical;
+  border: 1px solid #10c7ce;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+/* Submit button */
+.rate-inline-box button {
+  background-color: #0e6ebd;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s;
+}
+
+.rate-inline-box button:hover {
+  background-color: #00796b;
+}

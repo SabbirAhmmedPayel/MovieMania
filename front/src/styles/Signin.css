@@ -1,0 +1,65 @@
+/* Signin form container */
+.form-container {
+  max-width: 320px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 8px;
+  background-color: #5ad1e6;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Form title */
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #222;
+}
+
+/* Inputs */
+.form-container input {
+  width: 100%;
+  padding: 0.6rem 0.8rem;
+  margin-bottom: 1.2rem;
+  border: 1.5px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.form-container input:focus {
+  outline: none;
+  border-color: #1b84ff;
+  box-shadow: 0 0 5px rgba(27, 132, 255, 0.4);
+}
+
+/* Button */
+.form-container button {
+  width: 100%;
+  padding: 0.7rem;
+  background-color: #1b84ff;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+.form-container button:hover {
+  background-color: #146bd1;
+}
+
+/* Message text */
+.form-container .message {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #c00; /* default error color */
+}
+
+.form-container .message.success {
+  color: #1b8400; /* green for success */
+  font-weight: 600;
+}

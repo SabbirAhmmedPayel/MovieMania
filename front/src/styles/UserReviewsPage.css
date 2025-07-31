@@ -1,0 +1,63 @@
+.user-reviews-page {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.reviews-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.reviews-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.review-card {
+  background-color: #1ab3e2;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.review-header {
+  margin-bottom: 0.5rem;
+}
+
+.review-username {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.review-about {
+  font-size: 0.8rem;
+  color: #666;
+  margin: 0 0.3rem;
+}
+
+.review-movie {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  font-style: italic;
+}
+
+.review-rating {
+  margin-bottom: 0.5rem;
+  color: #ffc107;
+  font-size: 1.2rem;
+}
+
+.rating-number {
+  margin-left: 0.5rem;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.review-text {
+  font-size: 1rem;
+  color: #333;
+}

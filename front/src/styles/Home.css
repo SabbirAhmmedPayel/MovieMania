@@ -1,0 +1,122 @@
+.home-wrapper {
+  padding: 2rem;
+  position: relative;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.intro p a {
+  color: #007bff;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.center-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.center-link a {
+  font-size: 38px;
+  color: #ffcc00;
+  text-decoration: none;
+}
+.center-link a:hover {
+  text-decoration: underline;
+  color: #f3a005; 
+}
+
+.sidebar {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  text-align: right;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.editor-link {
+  color: #009688;
+  font-weight: bold;
+}
+
+.friend-sites {
+  margin-top: 1rem;
+}
+
+.friend-sites h4 {
+  margin-bottom: 0.5rem;
+}
+
+.friend-sites ul {
+  list-style: none;
+  padding: 0;
+}
+
+.friend-sites li a {
+  text-decoration: none;
+  color: #0fc0df;
+}
+
+.friend-sites li a:hover{
+    text-decoration: underline; 
+}
+
+.youtube-link {
+  margin-top: 1rem;
+}
+
+.youtube-link a {
+  color: #e91e63;
+  font-weight: bold;
+  text-decoration: none;
+}
+.friend-sites {
+  margin-top: 1.5rem;
+  font-size: 1.9rem;
+}
+
+.friend-sites h4 {
+  font-size: 1.3rem;
+  color: #0b9bee;
+  margin-bottom: 0.5rem;
+}
+
+.friend-sites ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.friend-sites li {
+  margin: 0.3rem 0;
+}
+
+.friend-sites li a {
+  text-decoration: none;
+  color: #1484df;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.friend-sites li a:hover {
+  color: #007bff;
+}
+
+.youtube-link {
+  margin-top: 2rem;
+  font-size: 1.4rem; /* 👈 Increased font size */
+}
+
+.youtube-link a {
+  color: #ff0000;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.6rem; /* 👈 Even bigger for emphasis */
+}
+
+.youtube-link a:hover {
+  text-decoration: underline;
+}
