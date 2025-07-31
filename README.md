@@ -2,6 +2,23 @@
 
 MovieMania is a full-stack movie application built with the **PERN stack (PostgreSQL, Express, React, Node.js)**. Users can explore trending and top-rated movies, search by name or genre, view detailed info, leave reviews, and manage watchlists.
 
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/moviemania.git
+cd moviemania
+
+npm install
+cd front
+npm install
+cd ..
+npm start
+
+Alternativly here is a project video link 
+https://drive.google.com/file/d/1Rk48rD0Z7rgrxw6IDjN8zS92inveuLul/view?usp=sharing
+
 ---
 
 
@@ -70,10 +87,4 @@ MovieMania is a full-stack movie application built with the **PERN stack (Postgr
 
 ---
 
-## 🚀 Getting Started
 
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/moviemania.git
-cd moviemania
