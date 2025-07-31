@@ -6,7 +6,7 @@ MovieMania is a full-stack movie application built with the **PERN stack (Postgr
 
 ### 1. Clone the Repository
 
-```bash
+bash
 git clone https://github.com/yourusername/moviemania.git
 cd moviemania
 
@@ -19,7 +19,7 @@ npm start
 Alternativly here is a project video link 
 https://drive.google.com/file/d/1Rk48rD0Z7rgrxw6IDjN8zS92inveuLul/view?usp=sharing
 
----
+
 
 
 ![](screenshots/Screenshot%202025-07-25%20192331.png)
